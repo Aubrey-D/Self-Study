@@ -1,6 +1,3 @@
 # hello-world
 
-Just another repository
-
-Hello!
-I am studying about html, css and Javascript, and I like learning new stuffs in Technology involving front-end development.
+Hello! I am a passionate and dedicated student studying HTML, CSS, and Javascript, and I like learning new stuff in technology involving front-end development.
