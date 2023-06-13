@@ -2,13 +2,21 @@ html {
   font-family: sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+.related-courses {
+  color: #1098ad;
+}
+
 h1 {
   font-size: 26px;
   text-transform: uppercase;
   font-style: italic;
 }
 
-h2,
+h2,    /* combining selectors */
 h3 {
   font-size: 30px;
 }
@@ -23,6 +31,29 @@ p {
   font-size: 20px;
   line-height: 1.5;
 }
+
 li {
   font-size: 18px;
+}
+
+/* descendant selector */
+/* footer p {
+  font-size: 16px;
+} */
+
+.copyright {
+  font-size: 16px;
+}
+
+.contact-info {
+  font-size: 20px;
+}
+
+.related-courses {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.posts {
+  list-style: none;
 }
