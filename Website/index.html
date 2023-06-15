@@ -12,8 +12,34 @@
         Thank you for taking the time to help us improve the platform
       </p>
       <section>
-        <form class="survey-form" id="name" value="survey-form" required></form>
-        <input type="text" id="name" placeholder="Enter your name" required />
+        <form
+          class="survey-form"
+          class="name"
+          value="survey-form"
+          required
+        ></form>
+        <input
+          type="text"
+          class="name"
+          placeholder="Enter your name"
+          required
+        />
+        <input
+          type="email"
+          class="email"
+          placeholder="Enter your email"
+          required
+        />
+        <input type="number" id="number" placeholder="Age" min="18" max="90">
+      </article>
+      <select id="dropdown">
+        <option value="">Select current role</option>
+        <option value="student">Student</option>
+        <option value="full-time">Full Time Job</option>
+        <option value="full-time-learner">Full Time Learner</option>
+        <option value="not-to-say">Prefer not to say</option>
+        <option value="other">Other</option>
+      </select>
       </section>
     </main>
   </body>
