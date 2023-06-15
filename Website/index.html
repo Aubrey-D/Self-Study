@@ -40,12 +40,50 @@
         <option value="not-to-say">Prefer not to say</option>
         <option value="other">Other</option>
       </select>
+      <label for="friend">Would you recommend programming to a friend?</label>
+      <div>     
         <input type="radio" class="definitely" name="recommend" value="definitely">
         <label for="definitely">Definitely</label>
+       <div>
         <input type="radio" class="maybe" name="recommend" value="maybe">
         <label for="maybe">Maybe</label>
+      </div>
         <input type="radio" class="not-sure" name="recommend" value="not sure">
         <label for="not-sure">Not sure</label>
+      </div>
+      </section>
+      <section>
+        <label for="favorite">What is your favorite way to learn programming?</label>
+        <select id="feature">
+          <option value="">Select an option</option>
+          <option value="challenges">Challenges</option>
+          <option value="projects">Projects</option>
+          <option value="community">Community</option>
+          <option value="open source">Open Source</option>
+      </select>
+      <section>
+        
+        <label for="improved">What would you like to improved? (Check all that apply)</label>
+        <div>
+          <input type="checkbox" id="front-end" name="front-end" value="front-end">
+          <label for="front-end">Front end Projects </label>
+        </div>
+        <div>
+          <input type="checkbox" id="back-end" name="back-end" value="back-end">
+          <label for="back-end">Back end Projects</label>
+        </div>
+         <div>
+          <input type="checkbox" id="logical" name="logical" value="logical">
+          <label for="logical">Logical Thinking</label>
+        </div>
+        <div>
+          <input type="checkbox" id="creativity" name="creativity" value="creativity">
+          <label for="creativity">Creativity</label>
+        </div>
+      </section>
+      <label for="comments">Any comments or suggestions?</label>
+      <textarea class="comments" name="comments" rows="5" cols="40">
+      </textarea>
       </section>
     </main>
   </body>
