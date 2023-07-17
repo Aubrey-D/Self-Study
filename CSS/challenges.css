@@ -13,14 +13,21 @@ h2 {
 }
 
 .price {
-  /* font-weight: 800; */
+  font-weight: 700;
   font-size: 23px;
+}
+
+.shipping {
+  text-transform: uppercase;
+  color: #918c8c;
+  font-weight: 800;
+  font-size: 13px;
 }
 
 fieldset {
   margin: 10px;
   padding: 0;
-  border: 5px solid black;
+  border: 5px solid #000;
 }
 
 legend {
