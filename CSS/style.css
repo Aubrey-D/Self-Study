@@ -1,5 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html {
   font-family: sans-serif;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+  padding: 20px 40px;
+  margin-bottom: 60px;
+}
+
+.post-header {
+  margin-bottom: 40px;
+}
+h1 {
+  border-top: 5px solid #1098ad;
 }
 
 /* We combine these selectors into one list. This is a still one selector 
@@ -24,6 +43,14 @@ h3 {
   font-size: 30px;
 }
 
+h2 {
+  margin-bottom: 30px;
+}
+
+h3 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
 h4 {
   font-size: 20px;
   text-transform: uppercase;
@@ -33,10 +60,22 @@ h4 {
 p {
   font-size: 20px;
   line-height: 1.5;
+  margin-bottom: 15px;
 }
 
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
 li {
   font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* whenever we use zero, we do not specify any unit. */
+li:last-child {
+  margin-bottom: 0;
 }
 
 /* descendant selector */
@@ -48,10 +87,6 @@ li {
 .copyright {
   font-size: 16px;
 }
-
-/* .contact-info {
-  font-size: 20px;
-} */
 
 article header p {
   font-style: italic;
@@ -77,6 +112,7 @@ aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
+  padding: 50px;
 }
 
 /* Pseudo class */
